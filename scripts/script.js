@@ -10,6 +10,8 @@ const mat = Materials.get("material0");
 const cameraTexture = Textures.get("cameraTexture0");
 const cameraColor = cameraTexture.signal;
 
+// Shader is based on: https://www.shadertoy.com/view/lt3fW8
+
 // get the texture coordinates in fragment stage
 const texcoords = Shaders.fragmentStage(Shaders.vertexAttribute({'variableName': Shaders.VertexAttribute.TEX_COORDS}));
 
