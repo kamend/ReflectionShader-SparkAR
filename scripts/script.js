@@ -42,7 +42,8 @@ function mirrorSignal(mirrorPosition, textureColor, uvs, time) {
     var dy = R.mul(30, sine);
     var dx = R.val(0);
     
-    dy = R.mul(dy, distanceFromMirror);
+    //dy = R.mul(dy, distanceFromMirror);
+    
     var offsetX = R.mul(pixelSizeX, dx);
     var offsetY = R.mul(pixelSizeY, dy);
 
